@@ -24,6 +24,7 @@ namespace VsExample
             Console.WriteLine("**** Welcome to My Rocking App ****");
             Console.WriteLine("****** Edited on the tablet *******");
             Console.WriteLine("**** Re-edited on the desktop *****");
+            Console.WriteLine("*** Edited again on the tablet ****");
             Console.WriteLine("***********************************");
             Console.BackgroundColor = ConsoleColor.Black;
         }
