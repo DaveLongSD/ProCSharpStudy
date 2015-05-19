@@ -22,6 +22,7 @@ namespace VsExample
             Console.BackgroundColor = ConsoleColor.Blue;
             Console.WriteLine("***********************************");
             Console.WriteLine("**** Welcome to My Rocking App ****");
+            Console.WriteLine("****** Edited on the tablet *******");
             Console.WriteLine("***********************************");
             Console.BackgroundColor = ConsoleColor.Black;
         }
