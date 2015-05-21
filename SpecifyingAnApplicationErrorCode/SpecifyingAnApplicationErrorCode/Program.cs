@@ -17,7 +17,7 @@ namespace SpecifyingAnApplicationErrorCode
             //Wait for Enter Key to be pressed before shutting down.
             Console.ReadLine();
 
-            return -1;
+            return 0;
         }
     }
 }
