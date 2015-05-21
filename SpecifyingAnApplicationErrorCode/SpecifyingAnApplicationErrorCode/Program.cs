@@ -10,14 +10,19 @@ namespace SpecifyingAnApplicationErrorCode
     {
         static int Main(string[] args)
         {
-            Console.WriteLine("***** My First C# App ***** ");
-            Console.WriteLine("Hello World");
-            Console.WriteLine();
+            ConsoleHelloWorld();
 
             //Wait for Enter Key to be pressed before shutting down.
             Console.ReadLine();
 
             return 0;
+        }
+
+        private static void ConsoleHelloWorld()
+        {
+            Console.WriteLine("***** My First C# App ***** ");
+            Console.WriteLine("Hello World");
+            Console.WriteLine();
         }
     }
 }
