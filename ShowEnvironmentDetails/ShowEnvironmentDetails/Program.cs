@@ -36,6 +36,8 @@ namespace ShowEnvironmentDetails
             Console.WriteLine("OS: {0}", Environment.OSVersion);
             Console.WriteLine("Number of processors: {0}", Environment.ProcessorCount);
             Console.WriteLine(".Net version: {0}", Environment.Version);
+            Console.WriteLine("Machine Name: {0}", Environment.MachineName);
+            Console.WriteLine("Is Operating system 64 bit?: {0}", Environment.Is64BitOperatingSystem);
 
         }
 
